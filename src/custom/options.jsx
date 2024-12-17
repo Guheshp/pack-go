@@ -30,8 +30,6 @@ export const selectTravelList = [
     },
 ]
 
-
-
 export const selectedBudgetOption = [
     {
         id: 1,

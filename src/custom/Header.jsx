@@ -61,6 +61,7 @@ const Header = () => {
                 <h1 className="text-2xl font-bold text-neutral-950 hover:text-neutral-800 transition duration-300">
                     <Link to={`/`}>
                         Pack&Go
+                        <span className='text-sm font-thin'> (AI-based suggestions)</span>
                     </Link>
                 </h1>
             </div>

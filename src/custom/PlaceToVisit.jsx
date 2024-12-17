@@ -26,9 +26,7 @@ const PlaceToVisit = ({ trip }) => {
                                     <div className="gap-3 text-gray-600 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2">
                                         {details?.places?.map((place, idx) => (
                                             <>
-
                                                 <VisitCard key={idx} place={place} />
-
                                             </>
                                         ))}
                                     </div>
